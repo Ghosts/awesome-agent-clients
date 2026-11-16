@@ -10,7 +10,7 @@
 - [Terminal Multiplexers & Session Managers](#terminal-multiplexers--session-managers) (112)
 - [Web Dashboards & Control Planes](#web-dashboards--control-planes) (46)
 - [Cloud & Hosted Control Planes](#cloud--hosted-control-planes) (8)
-- [Mobile & Remote-Control Clients](#mobile--remote-control-clients) (78)
+- [Mobile & Remote-Control Clients](#mobile--remote-control-clients) (79)
 - [IDE & Editor Integrations](#ide--editor-integrations) (30)
 - [Multi-Agent Swarms & Orchestrators](#multi-agent-swarms--orchestrators) (75)
 - [Agent Loops & Autonomous Runs](#agent-loops--autonomous-runs) (71)
@@ -306,6 +306,7 @@
 - [Agent Workbench](https://github.com/cvelasquez/agent-workbench) — One local UI for the Claude Code, Codex, OpenCode and Antigravity CLIs: tabs, browsable history, conversations as cards, handoff between CLIs, global… *(★ 2, MIT, drives Antigravity, Claude Code, Codex, OpenCode)*
 - [Better Agent](https://github.com/ofekron/better-agent)
 - [Catnip](https://github.com/wandb/catnip) — Self-hostable web service (W&B) running Claude Code in containerized worktree sandboxes, with a native iOS app *(drives Claude Code)*
+- [Sillage](https://github.com/MarlBurroW/sillage) - Self-hosted, mobile-first web UI that drives the native Claude Code and Codex CLIs on your own machine; sessions that outlive the client, full-text search across conversations, an IDE panel (file explorer, editor, diffs, terminal), a board the agents read through its own MCP server, and an installable PWA. Single Docker container *(★ 5, MIT, drives Claude Code, Codex)*
 
 ## Cloud & Hosted Control Planes
 
@@ -403,6 +404,7 @@
 - [AgentsRoom](https://agentsroom.dev/) — Desktop app (with iOS/Android companions) orchestrating CLI agents across projects as native local processes
 - [Duet](https://duet.so) — Runs Claude Code on a persistent, always-on cloud server (sessions survive for days), controllable from your phone, with scheduling and a team channel interface *(drives Claude Code)*
 - [Telegram Agent](https://github.com/bugraskl/telegram-agent) — Resume saved Codex and Claude Code sessions on Windows from a private Telegram chat with session history and per-task confirmation.
+- [Conduit Bridge](https://github.com/CommsConnectgmbh/conduit-bridge) — Runs Claude Code and Codex on your own computer for remote use through the Conduit app, with end-to-end encryption and optional local speech (open bridge; proprietary app and cloud).
 
 ## IDE & Editor Integrations
 
@@ -438,6 +440,7 @@
 - [claude-config](https://github.com/Aurealibe/claude-config) — Comprehensive Claude Code framework: 6 specialized agents, 7 workflow commands, audio notifications - stack agnostic *(★ 67, MIT, drives Claude Code)*
 - [Pi Agent IDE](https://github.com/alexshpunt/pi-agent-ide) — Agent-native IDE extension for the Pi coding agent — guarded editing, search, LSP, terminals, debugging and observability *(★ 8, MIT, drives Pi)*
 - [Terminai](https://github.com/emosenkis/terminai) — Make your coding AI available in your shell *(★ 6, MIT)*
+- [Lookout for VS Code](https://github.com/nimrod-teich/lookout) — VS Code extension that shows every Claude Code, Codex and Copilot CLI session on one board: what each waits on, with the command, file or question quoted, a one-key jump to its tab or terminal, and search across conversations *(★ 5, MIT, drives Claude Code, Codex, Copilot)*
 
 ## Multi-Agent Swarms & Orchestrators
 
@@ -698,6 +701,8 @@
 - [par_cc_usage](https://github.com/paulrobello/par_cc_usage) — Claude Code usage monitor *(★ 84, MIT, drives Claude Code)*
 - [WhereMyTokens](https://github.com/jeongwookie/WhereMyTokens) — Local-first Windows tray app for monitoring Claude Code and Codex tokens, costs, sessions, and rate limits *(★ 84, MIT, drives Claude Code, Codex)*
 - [tu](https://github.com/sahil87/tu) — AI coding assistant cost tracking CLI — track token usage across Claude Code, Codex, OpenCode *(★ 4, MIT, drives Claude Code, Codex, OpenCode)*
+- [Jvlang AI Codex Usage Tracker](https://jvlangai.com/codex-reset#tracker) — Free browser companion comparing manually entered Codex allowance usage with elapsed time, with countdowns and calendar export
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) — Web dashboard for OpenClaw AI agents that reads local session data to show token usage, session history, and 7-day trends *(drives OpenClaw)*
 
 ## Companions, Notifications & Statusline
 
@@ -717,8 +722,10 @@
 - [claude-code-warp](https://github.com/warpdotdev/claude-code-warp) — Official Warp terminal integration for Claude Code - native notifications and more *(★ 231, MIT, drives Claude Code)*
 - [CCNotify](https://github.com/dazuiba/CCNotify) — CCNotify provides desktop notifications for Claude Code, alerting you when Claude needs your input or completes tasks *(★ 215, MIT, drives Claude Code)* 💤 dormant
 - [fox-ai-roundtable](https://github.com/PeterPanSwift/fox-ai-roundtable) — 🦊 Ask once, get three answers — same prompt to Claude / Codex (GPT) / Antigravity (Gemini) via their local CLIs *(★ 75, drives Antigravity, Claude Code, Codex, Gemini CLI)*
+- [/call-me](https://github.com/radres/call-me) - Claude Code plugin and agent skill that lets an agent ring or text your phone (iPhone or Android) and returns your spoken reply as text; the phone app is a paid subscription
 - [termagitchi](https://github.com/TevvvB/termagitchi) — A creature for every git worktree, living in your coding agent's status line. Deterministic species, rarity bands, and one view across every live session *(★ 18, MIT)*
 - [llm-panel](https://github.com/musharna/llm-panel) — Ask several LLMs independently, read every answer in full — parallel judges, anonymized rebuttal round, cost accounting, and a measured recall benchmark *(★ 1, MIT)*
+- [Agent Notifications](https://github.com/777genius/agent-notifications) — Desktop task and attention notifications for Claude Code, Codex CLI, OpenCode, Gemini CLI, Cursor CLI, and Qoder on macOS, Linux, and Windows
 
 ## Model Routers & Account Managers
 
@@ -792,6 +799,7 @@
 - [WorkGround2](https://github.com/KiddPhenix/WorkGround2) — Local-first AI engineering workbench — CLI, desktop & IM bots sharing one Go agent kernel (cache-first · MCP · sandboxed · rewindable) *(★ 2, MIT)*
 - [wt](https://github.com/sahil87/wt) — Git worktree CLI for parallel-edit workflows — sibling layout and shell-integrated navigation *(★ 2, MIT)*
 
+- [Sandbox0](https://sandbox0.ai) — Managed cloud computers for AI agents with gVisor isolation and persistent writable RootFS checkpoints.
 ## Agent Runtimes & Harness Infrastructure
 
 *Self-hosted runtimes and operating layers underneath agents and swarms.*
@@ -802,6 +810,7 @@
 - [Open Multi-Agent](https://github.com/open-multi-agent/open-multi-agent) — Self-hosted TypeScript agent runtime with durable approvals and verifiable run records. Own it, approve it, audit it *(★ 7k, MIT)*
 - [Docker Agent](https://github.com/docker/docker-agent) — AI Agent Builder and Runtime by Docker Engineering *(★ 3.4k, Apache-2.0)*
 - [Citadel](https://github.com/SethGammon/Citadel) — The operating layer for Claude Code + OpenAI Codex: persistent project memory, intent routing, safety hooks, cost telemetry, and parallel agent fleets *(★ 923, MIT, drives Claude Code, Codex)*
+- [TreeHarbor](https://github.com/ArtAndrew/TreeHarbor) — A self-hosted service that gives parallel coding agents workspaces at a pinned Git commit, keeps submitted changes after workspace cleanup, and can publish each proposal as a GitHub draft PR
 
 ## Coordination, Messaging & Protocols
 
@@ -833,6 +842,7 @@
 - [clu](https://github.com/Arjia-Labs/clu) — Local-first SQLite issue tracker for coordinating AI coding agents — atomic claim, dependency graphs, workflows & checkpoints, audit log. No daemon, no network *(★ 8, MIT)*
 - [SpecWave](https://github.com/Cyning12/SpecWave) — SpecWave — multi-host coding CLI + P0 gates/Harness (Cursor/Claude/DSH). Formerly SpecGate / dsh-coding-kit. npx spec-wave *(★ 6, MIT, drives Cursor)*
 - [Weaver](https://github.com/sean35mm/weaver) — Shared situational awareness for multiple coding agents working in the same repo *(★ 3, MIT)*
+- [Concord Agent](https://github.com/zkwasm/concord-agent) — ACP bridge connecting local Claude Code, Codex and Gemini sessions to shared rooms on the hosted Concord service for messaging across machines and human oversight.
 - [Agent Client Protocol (ACP)](https://agentclientprotocol.com) — Zed's protocol for embedding agents in editor/host clients; used by Obsidian Agent Client, CodeCompanion.nvim, Agentic.nvim, Agent of Empires, and Agent Kanban
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io) — connects agents to tools/data; the dominant integration protocol here
 
